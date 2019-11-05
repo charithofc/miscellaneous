@@ -22,7 +22,7 @@ def convert_metric(x, result_file_type):
         x = x.replace('users', 'Users')
         x = x.replace('conversion_rate', 'Conversion Rate')
         x = x.replace('bounce_rate', 'Bounce Rate')
-        x = x.replace('avewrage_order_value', 'Avg. Order Value')
+        x = x.replace('average_order_value', 'Avg. Order Value')
         
     if result_file_type == 'new':
         x = x.replace('Transactions', 'transactions',)
